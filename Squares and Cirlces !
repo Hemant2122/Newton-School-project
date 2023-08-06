@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>
+
+        Squares and Cirlces !
+    </title>
+    <style>
+        .box-container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+            width: 600px;
+            height: 600px;
+            
+        }
+
+        .item{
+            margin: 10px;
+        }
+
+        .box1{
+            background-color: green;
+           
+        }
+
+        .box2{
+            background-color: blue;
+           border-radius: 50%;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="box-container">
+        <div class="item box1"></div>
+        <div class="item box2"></div>
+        <div class="item box1"></div>
+        <div class="item box2"></div>
+        <div class="item box1"></div>
+        <div class="item box2"></div>
+        <div class="item box1"></div>
+        <div class="item box2"></div>
+        <div class="item box1"></div>
+    </div>
+</body>
+
+</html>
